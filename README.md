@@ -11,3 +11,11 @@ docker build -t prestodb:latest --build-arg PRESTO_VERSION=<https://repo1.maven.
 ```bash
 docker run --name presto prestodb:latest
 ```
+
+## POSTGRES Details
+
+```bash
+user=bigdata
+password=bigdata123
+dbname=tpc
+```
